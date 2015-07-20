@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Charting Library</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description"    content="Bar chart library">
+    <meta name="keywords"       content="charts, data, visual">
+    <meta name="author"         content="Rachit Garg">
+   	<link rel="stylesheet" type="text/css" href="assets/libs/bootstrap-3.3.4/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheets/app.base.css" />
+  </head>
+<body>
+	<article class="app-wrapper container-fluid">
+	    <header class="app-header text-center">
+			<h1>Charting Library</h1>	
+		</header>
+		<section class="app-content-wrapper col-xs-12">
+			<div class="detail-options-wrapper col-xs-2">
+				<form name="studentForm" class="detail-form floating-form">
+					<div class="form-group">
+						<div>
+						<button type="button" id="loadData2015" class="btn app-btn btn-success">Data 2015</button>
+						</div>
+						<div>
+				        <button type="button" id="loadData2014" class="btn app-btn btn-info">Data 2014</button>
+				        </div>
+				        <div>
+				        <button type="button" id="loadData2013" class="btn app-btn btn-warning">Data 2013</button>
+				        </div>
+				    </div>
+				</form>
+			</div>
+			<div class="col-xs-10">
+				<div class="chart-y-text col-xs-2">Pounds of Fruit Sold</div>
+				<div id="fruitChart" class="r-charts chart-wrapper col-xs-10"></div>
+				<div class="chart-x-text col-xs-8 pull-left text-center">Fruits</div>
+			</div>	
+		</section>
+		<div class="clearfix"></div>	
+		<footer class="app-footer text-right">
+			<p>© 2015  All Rights Reserved</p>
+		</footer>
+	</article>
+	<script src="assets/libs/jquery/jquery-2.1.4.js"></script>
+	<script src="assets/libs/bootstrap-3.3.4/js/bootstrap.js"></script>
+	<script src="app/r-charts.js"></script>
+	<script src="app/app.start.js"></script>
+</body>
+</html>

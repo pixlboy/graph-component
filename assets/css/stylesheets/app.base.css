@@ -1,0 +1,28 @@
+/*================= Reset CSS========================*/
+h1, h2, h3, h4, h5, h6{margin: 0;}
+ul, li{margin:0;padding:0;list-style-type:none;}
+
+/*===============Application CSS==================*/
+
+body {font:100% Helvetica, sans-serif;height:100%;background:#3F3F3F;}
+.app-header {height:60px;padding:10px;background:#fff;}
+.container-fluid {padding:0;}
+.app-content-wrapper {color:#fff;padding:20px;}
+.chart-wrapper{width:700px;height:500px;margin:0 auto;}
+.app-footer {background:#2287BA;color:#fff;padding:20px;height:48px;position:fixed;bottom:0;width:100%;}
+.app-footer p{padding:0;margin:0;}
+.app-btn {border:0;}
+.form-group div{margin-bottom:5px;}
+.chart-x-text{margin-top:15px;font-size:20px;}
+.chart-y-text{font-size:20px;transform:rotate(-90deg);width:400px;position:absolute;left:-160px;top:140px;}
+/*===============Charting CSS ====================*/
+
+.r-charts .y-axis{float:left;height:100%;width:50px;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;text-align:right;}
+.r-charts .y-axis li{-ms-flex:1;flex:1;}
+.r-charts .x-axis{width:calc(100% - 50px);float:right;height:30px;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;}
+.r-charts .x-axis li{-ms-flex:1;flex:1;text-align:center;margin:0 20px;font-weight:700;}
+.r-charts .chart-canvas{width:calc(100% - 50px);float:left;height:100%;display:-ms-flexbox;display:flex;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIUlEQVQYV2PcunXrfwYiACNIobe3NyMhtaMK8YYQ0cEDAFxiJymvj8xKAAAAAElFTkSuQmCC) repeat #FAFAFA;}
+.r-charts .chart-canvas dl{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-line-pack:center;align-items:flex-end;margin:0;-ms-flex:1;flex:1;}
+.r-charts .chart-canvas dl dt{font-weight:bold;-ms-flex:1;flex:1;text-align:center;margin:0 20px;background-color:#2287BA;transition:all 700ms;}
+
+/*============================================= End of File=======================================*/
