@@ -1,4 +1,4 @@
-# chart-component
+# graph-component
 Charting Library
 
 ## Instructions to run :
