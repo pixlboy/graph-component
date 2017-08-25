@@ -1,4 +1,4 @@
-# R-charts
+# chart-component
 Charting Library
 
 ## Instructions to run :
